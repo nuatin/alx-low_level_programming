@@ -1,4 +1,4 @@
-#include "main.h"
+:include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -55,12 +55,6 @@ void close_file(int fd)
  * If file_from does not exist or cannot be read - exit code 98.
  * If file_to cannot be created or written to - exit code 99.
  * If file_to or file_from cannot be closed - exit code 100.
-<<<<<<< HEAD
-=======
- *
- *
->>>>>>> 4f7982d299eefa3153adeb1de899643066eb0b66
- *nuatin
  */
 int main(int argc, char *argv[])
 {
@@ -107,7 +101,3 @@ int main(int argc, char *argv[])
 
 	return (0);
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 4f7982d299eefa3153adeb1de899643066eb0b66

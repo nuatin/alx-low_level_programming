@@ -2,21 +2,11 @@
 
 /**
  * create_file - Creates a file.
-<<<<<<< HEAD
  * @filename: A pointer to the name of the file to create.
  * @text_content: A pointer to a string to write to the file.
  *
  * Return: If the function fails - -1.
  *         Otherwise - 1.
-=======
- * @filename:A pointer to the name of the file to create.
- * @text_content: A pointer to a string to write to the file.
- *
- * Return: If the function fails - -1.
- * Otherwise - 1.
- *
->>>>>>> 4f7982d299eefa3153adeb1de899643066eb0b66
- *nuatin
  */
 int create_file(const char *filename, char *text_content)
 {
@@ -41,7 +31,3 @@ int create_file(const char *filename, char *text_content)
 
 	return (1);
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 4f7982d299eefa3153adeb1de899643066eb0b66

@@ -3,19 +3,10 @@
 
 /**
  * read_textfile- Read text file print to STDOUT.
-<<<<<<< HEAD
  * @filename: text file being read
  * @letters: number of letters to be read
  * Return: w- actual number of bytes read and printed
  *        0 when function fails or filename is NULL.
-=======
- * @filename:text file being read
- * @letters:numbers of letters to be read
- * Return: w- actual number of bytes read and printed
- *        0 when function fails or filename is NULL.
- *
->>>>>>> 4f7982d299eefa3153adeb1de899643066eb0b66
- *nuatin
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
