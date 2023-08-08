@@ -7,7 +7,13 @@
  *
  * Return: If the function fails or filename is NULL - -1.
  *         If the file does not exist the user lacks write permissions - -1.
+<<<<<<< HEAD
  *         Otherwise - 1.
+=======
+ *    Otherwise - 1.
+ *
+ *
+>>>>>>> 4f7982d299eefa3153adeb1de899643066eb0b66
  *nuatin
  */
 int append_text_to_file(const char *filename, char *text_content)
